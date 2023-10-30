@@ -1,0 +1,76 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > @snyk/dep-graph > lodash
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser >
+          @snyk/ruby-semver > lodash
+    - snyk > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > lodash
+    - snyk > inquirer > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > inquirer > lodash
+    - snyk > snyk-config > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-config > lodash
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-mvn-plugin > lodash
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-nodejs-lockfile-parser > lodash
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-nuget-plugin > lodash
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > @snyk/dep-graph > graphlib > lodash
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-go-plugin > graphlib > lodash
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-nodejs-lockfile-parser > graphlib > lodash
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib >
+          lodash
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2023-10-30T19:44:10.966Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser >
+          @snyk/dep-graph > graphlib > lodash
